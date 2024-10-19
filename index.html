@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">TravelGo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-primary" href="#">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1>Explore the World with TravelGo</h1>
+            <p>Find the best destinations, deals, and travel experiences</p>
+            <div class="search-bar">
+                <input type="text" class="form-control" placeholder="Where do you want to go?">
+                <input type="date" class="form-control" placeholder="Check-in">
+                <input type="date" class="form-control" placeholder="Check-out">
+                <input type="number" class="form-control" placeholder="Travelers">
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </header>
+
+<!-- New Services Section -->
+<section class="services-section py-5">
+    <div class="container text-center">
+        <h2>Why Choose Us</h2>
+        <div class="row mt-4">
+            <!-- Best Price -->
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h3>Best Price</h3>
+                    <p>We offer unbeatable prices for top-notch travel experiences.</p>
+                </div>
+            </div>
+            <!-- Best Guide -->
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h3>Best Guide</h3>
+                    <p>Explore with the best guides who make your journey memorable.</p>
+                </div>
+            </div>
+            <!-- Best Agent -->
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h3>Best Agent</h3>
+                    <p>Agents are dedicated to making your travel plans seamless.</p>
+                </div>
+            </div>
+            <!-- Our Support -->
+            <div class="col-md-3">
+                <div class="service-card">
+                    <h3>Our Support</h3>
+                    <p>We provide 24/7 customer support for all your travel needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Popular Destinations Section -->
+    <section class="destinations-section py-5">
+        <div class="container text-center">
+            <h2>Popular Destinations</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="destination-card">
+                        <img src="paris.jpg" alt="Destination" class="img-fluid">
+                        <h3>Paris</h3>
+                        <p>The City of Light</p>
+                        <a href="#" class="btn btn-outline-primary">Explore</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="destination-card">
+                        <img src="japan.jpeg" alt="Destination" class="img-fluid">
+                        <h3>Japan</h3>
+                        <p>Beautiful Place</p>
+                        <a href="#" class="btn btn-outline-primary">Explore</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="destination-card">
+                        <img src="turkey.jpeg" alt="Destination" class="img-fluid">
+                        <h3>Turkey</h3>
+                        <p>The Future City</p>
+                        <a href="#" class="btn btn-outline-primary">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-primary">
+        <div class="container text-center">
+            <p>Follow Us</p>
+            <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">YouTube</a>
+            <br>
+            <p>Subscribe to our newsletter for travel tips and deals</p>
+            <input type="email" class="form-control d-inline w-25" placeholder="Your email">
+            <button class="btn btn-primary">Subscribe</button>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
